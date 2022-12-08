@@ -1,0 +1,86 @@
+.header {
+  /* border: 1px solid red; */
+}
+
+.title {
+  align-self: center;
+  margin: 0;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  margin-bottom: 250px;
+  /* border: 1px solid red; */
+  align-self: center;
+  margin: 0;
+  text-align: center;
+}
+
+.resultcontainer {
+    display: flex;
+}
+
+.result {
+      /* border: 1px solid red; */
+      width: 500px;
+      height: 100px;
+      margin: 0;
+      line-height: 96px;
+      font-size: 55px;
+      font-weight: 600;
+      z-index: 1;
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.sprite {
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    display: none;
+}
+
+.sprite_visible {
+    display: block;  
+}
+
+.pokepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(64 64 64);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.pokeball {
+  margin-top: 50px;
+  position: relative;
+  justify-self: center;
+  /* border: 1px solid red; */
+  width: 500px;
+  height: 500px;
+  background-image: url(./Pokeball.svg);
+  background-position: center;
+}
+
+.pokebutton {
+  position: absolute;
+  left: 222.5px;
+  top: 222.5px;
+  width: 55px;
+  min-height: 55px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.pokebutton:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}
