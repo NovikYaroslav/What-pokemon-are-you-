@@ -9,7 +9,8 @@ function getRandomInt(max) {
 function showMyPokemon() {
  const randomPokemon =  getRandomInt(10)
  if (randomPokemon == 3) {
-    result.textContent = `You NOT Pokemon!`
+    result.textContent = `You Hasbik!`
+    image.src = "https://media.tenor.com/n3a3dK8JRB0AAAAM/hasbulla-hasbi.gif"
     image.classList.remove("sprite_visible")
  } 
  else {
