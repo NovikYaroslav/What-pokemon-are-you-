@@ -10,8 +10,7 @@ function showMyPokemon() {
  const randomPokemon =  getRandomInt(10)
  if (randomPokemon == 3) {
     result.textContent = `You Hasbik!`
-    image.src = "https://media.tenor.com/n3a3dK8JRB0AAAAM/hasbulla-hasbi.gif"
-    image.classList.remove("sprite_visible")
+    image.src = "./hasbulla-hasbi.gif"
  } 
  else {
     return fetch(`https://pokeapi.co/api/v2/pokemon/${randomPokemon}`)
